@@ -6,18 +6,25 @@ body{
     width: 400px;
     height: 550px;
     overflow: hidden;
-    background-color: #F7C5CC;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav{
-    background-color: aqua;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
-    height : 10%;
+    border-bottom: 1px solid #C9C9C9;
+    height : 8%;
+}
+button{
+    cursor: pointer;
 }
 .feature{
     margin-top: 15px;
     text-align: center;
+    background-color: white;
+    border: none;
 }
 .title{
     border: none;
@@ -25,29 +32,78 @@ nav{
     margin-left: 10px;
     width: 360px;
     height: 30px;
-    font-size: 200%;
-    border-radius: 10px;
-    padding: 10px
+    font-size: 150%;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 #screenshot{
     margin : 10px;
     border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 #textbox{
     margin: 20px;
     padding: 5px;
     width: 370px;
     background: white;
-    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    
+}
+#textbox:focus{
     border: none;
 }
 #ss_canvas{
-    margin: 10px;
-    width: 380px;
+    
+    margin: 20px;
+    width: 350px;
     height: 10%;
+    border-radius: 4px;
+    
+
 }
-#save{
-    margin : 10px;
-    border-radius: 10px;
-    margin-left: 350px;
+.footer{
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer .bottom{
+    
+    padding: 5px;
+    border: 1px solid #C9C9C9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom>button{
+    flex: 0.3;
+}
+.record .start-button{
+    font-size: 12px;
+    background: white;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+   
+}
+.save .save-button{
+    font-size: 12px;
+    background: #52B6FF;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.b-icon{
+    border: none;
+    background-color: white;
 }
