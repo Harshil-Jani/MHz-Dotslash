@@ -1,0 +1,10 @@
+{
+    "name": "Guzel",
+    "description": "Chrome Extension to help you getting your take downs from hours of working in a more easy and efficient maner.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "fullscreen", "audioCapture"]
+    }

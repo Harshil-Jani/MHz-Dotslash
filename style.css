@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 400px;
+    height: 550px;
+    overflow: hidden;
+    background-color: #F7C5CC;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    height : 10%;
+}
+.feature{
+    margin-top: 15px;
+    text-align: center;
+}
+.title{
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 360px;
+    height: 30px;
+    font-size: 200%;
+    border-radius: 10px;
+    padding: 10px
+}
+#screenshot{
+    margin : 10px;
+    border-radius: 10px;
+}
+#textbox{
+    margin: 20px;
+    padding: 5px;
+    width: 370px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+}
+#ss_canvas{
+    margin: 10px;
+    width: 380px;
+    height: 10%;
+}
+#save{
+    margin : 10px;
+    border-radius: 10px;
+    margin-left: 350px;
+}
